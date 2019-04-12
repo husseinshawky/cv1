@@ -277,7 +277,7 @@ font-family: 'Questrial', sans-serif; */
         /* margin-left: 50px;
         padding-left: 50px;
         padding-right: 60px; */
-        width: 300px;
+        width: 273px;
         text-align: center;
     }
 
@@ -351,6 +351,7 @@ font-family: 'Questrial', sans-serif; */
 
     .threeRow .block1 p,
     .threeRow .block2 p {
+        width:78%;
         font-size: 14px;
         /* width:70%; */
         text-align: center;
@@ -399,11 +400,11 @@ font-family: 'Questrial', sans-serif; */
 
     .column {
         height: 1540px;
-        width: 140px;
+        width: 83px;
         background-color: #F0F4D6;
         position: absolute;
         top: 120px;
-        left: 300px;
+        left: 275px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -414,6 +415,15 @@ font-family: 'Questrial', sans-serif; */
         border-bottom-right-radius: 30px;
 
 
+    }
+    .column .myImg {
+      
+        /* background-position: center; */
+        border-radius: 50%;
+        width: 85px;
+        height: 100px;
+        margin-top: -40px;
+    
     }
 }
 
