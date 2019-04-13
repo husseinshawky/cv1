@@ -405,7 +405,11 @@ font-family: 'Questrial', sans-serif; */
     }
 
     .column {
+<<<<<<< HEAD
         height: 1129px;
+=======
+        height: 1540px;
+>>>>>>> d9511d0262bd44b936fe90c771b10b4cdc63cc74
         width: 83px;
         background-color: #F0F4D6;
         position: absolute;
