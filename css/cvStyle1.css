@@ -241,7 +241,8 @@ font-family: 'Questrial', sans-serif; */
 
 
 }
-@media all and (min-width: 768px) and (max-width: 959px) { 
+
+@media all and (min-width: 768px) and (max-width: 959px) {
 
     .column {
         height: 1140px;
@@ -262,7 +263,8 @@ font-family: 'Questrial', sans-serif; */
 
     }
 
- }
+}
+
 @media all and (min-width: 320px) and (max-width: 767px) {
     .rowFirst {
         transition: all 1.5s ease-in-out;
@@ -277,7 +279,7 @@ font-family: 'Questrial', sans-serif; */
         /* margin-left: 50px;
         padding-left: 50px;
         padding-right: 60px; */
-        width: 300px;
+        width: 273px;
         text-align: center;
     }
 
@@ -351,10 +353,16 @@ font-family: 'Questrial', sans-serif; */
 
     .threeRow .block1 p,
     .threeRow .block2 p {
+        width: 62%;
         font-size: 14px;
         /* width:70%; */
         text-align: center;
         margin: auto
+    }
+
+    .threeRow .block2 .row .col a {
+        width: 75%;
+        font-size: 14px;
     }
 
     .fourRow {
@@ -362,7 +370,7 @@ font-family: 'Questrial', sans-serif; */
         transition: all 1.5s ease-in-out;
         font-size: 14px;
 
-        height: 600px;
+        height: 630px;
         /* color: #117C7F; */
         color: #fff;
         border-top-left-radius: 100px;
@@ -385,25 +393,24 @@ font-family: 'Questrial', sans-serif; */
         padding: 0;
         text-align: center;
         margin: auto;
-        width: 80%;
+        width: 70%;
     }
 
     .fourRow .block1 p,
-    .fourRow .block2 ul li,
-    .fourRow .block2 a {
+    .fourRow .block2 ul li {
         font-size: 14px;
-        /* width:70%; */
+        width:85%;
         text-align: center;
         margin: auto
     }
 
     .column {
-        height: 1540px;
-        width: 140px;
+        height: 1129px;
+        width: 83px;
         background-color: #F0F4D6;
         position: absolute;
         top: 120px;
-        left: 300px;
+        left: 260px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -413,6 +420,16 @@ font-family: 'Questrial', sans-serif; */
         box-shadow: 0px 0px 10px 5px rgba(110, 112, 114, 0.75);
         border-bottom-right-radius: 30px;
 
+
+    }
+
+    .column .myImg {
+
+        /* background-position: center; */
+        border-radius: 50%;
+        width: 80px;
+        height: 100px;
+        margin-top: -40px;
 
     }
 }
